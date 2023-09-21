@@ -5,7 +5,7 @@ import Menu from './Menu'
 
 export const Header = () => {
   return (
-    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+    <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                     {/* Sidebar Toggle (Topbar) */}
                     <SidebarToggleButton></SidebarToggleButton>
 
