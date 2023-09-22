@@ -8,7 +8,7 @@ const Menu = () => {
                         <li className="nav-item dropdown no-arrow d-sm-none">
                             <a className="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
+                                <i className="fas fa-search fa-fw"></i>
                             </a>
                             {/* Dropdown - Messages */}
                             
@@ -37,7 +37,7 @@ const Menu = () => {
                                 <i className="fas fa-bell fa-fw"></i>
                                 {/* Counter - Alerts */}
                                 
-                                <span class="badge badge-danger badge-counter">3+</span>
+                                <span className="badge badge-danger badge-counter">3+</span>
                             </a>
                             {/* Dropdown - Alerts */}
                             
@@ -167,7 +167,7 @@ const Menu = () => {
                             <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a className="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
                                 <a className="dropdown-item" href="#">
@@ -175,7 +175,7 @@ const Menu = () => {
                                     Settings
                                 </a>
                                 <a className="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    <i className="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Activity Log
                                 </a>
                                 <div className="dropdown-divider"></div>

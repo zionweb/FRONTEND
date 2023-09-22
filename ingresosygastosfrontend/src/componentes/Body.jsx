@@ -9,7 +9,7 @@ const Body = () => {
       <body id="page-top">
         <div id="wrapper">
           <Sidebar></Sidebar>
-          <div id="content-wrapper" class="d-flex flex-column">
+          <div id="content-wrapper" className="d-flex flex-column">
           <div id="content">
             <Header></Header>
           </div>
@@ -17,6 +17,7 @@ const Body = () => {
           <Footer></Footer>
           </div>
         </div>
+        
       </body>
     </>
   );
